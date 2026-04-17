@@ -1,4 +1,3 @@
-#EV3_sumo
 =======TO USE SUMO PROJECT======== In two languages (because I am russian)
 
 -------First option------- You have to create a project in VS Code using the LEGO® MINDSTORMS® EV3 MicroPython extension. After creation, you will have the .gitignore, main, and .vscode files. The .vscode folder is used in the Visual Studio Code editor to store settings, debug configurations (launch.json), tasks (tasks.json), and recommended extensions for a specific project. The code from this repository is intended specifically for the main.py file.
