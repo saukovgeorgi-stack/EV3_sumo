@@ -1,3 +1,7 @@
+This isn't quite the basic code for an EV3 robot on Pybricks. It's more suitable for more advanced robots. At a minimum, you need three eyes: two on the sides and one in the front, plus a claw on one large motor (stereo). For simpler code, you can refer to my repository https://github.com/saukovgeorgi-stack/EV3_sumo_project.git or other resources.
+
+Это не совсем базовый код для EV3 робота на pybricks. Он больше подходит для более улучшенных роботов. Mинимум нужны 3 глаза: 2 по бокам и 1 спереди + клешня на одном большом моторе (стерео). Для более простого кода можете обратиться к моему репозиторию https://github.com/saukovgeorgi-stack/EV3_sumo_project.git или к другим информационным источникам.
+
 =======TO USE SUMO PROJECT======== In two languages (because I am russian)
 
 -------First option------- You have to create a project in VS Code using the LEGO® MINDSTORMS® EV3 MicroPython extension. After creation, you will have the .gitignore, main, and .vscode files. The .vscode folder is used in the Visual Studio Code editor to store settings, debug configurations (launch.json), tasks (tasks.json), and recommended extensions for a specific project. The code from this repository is intended specifically for the main.py file.
