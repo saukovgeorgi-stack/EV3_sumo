@@ -11,7 +11,7 @@ motor_s = Motor(Port.A) #stereo motor
 motor_r = Motor(Port.B)
 motor_l = Motor(Port.C)
 
-us_front = UltrasonicSensor(Port.S3)
+us_front = UltrasonicSensor(Port.S3) #you can change ports for all initialisation
 us_left  = UltrasonicSensor(Port.S2)
 us_right = UltrasonicSensor(Port.S4)
 
