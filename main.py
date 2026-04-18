@@ -11,13 +11,13 @@ motor_s = Motor(Port.A) #stereo motor
 motor_r = Motor(Port.B)
 motor_l = Motor(Port.C)
 
-us_front = UltrasonicSensor(Port.S3) #you can change ports for all initialisation
+us_front = UltrasonicSensor(Port.S3)
 us_left  = UltrasonicSensor(Port.S2)
 us_right = UltrasonicSensor(Port.S4)
 
 # константы
-MAX_POWER = 1700        
-SEARCH_POWER = 900       
+MAX_POWER = -1700        
+SEARCH_POWER = -900       
 DETECT_DIST_F = 700     #70 см
 DETECT_DIST_SIDE = 450  #45 см
 DOVOROT_MOTOR_DEG = 100
@@ -56,8 +56,8 @@ while True:
 
         #атака
         if dist_f < 200:
-            motor_l.dc(100)
-            motor_r.dc(100)
+            motor_l.dc(-100)
+            motor_r.dc(-100)
         else:
             motor_l.run(MAX_POWER)
             motor_r.run(MAX_POWER)
